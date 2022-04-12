@@ -1,7 +1,7 @@
 {
-    "name": "@teamhive/capacitor-contact-picker",
+    "name": "@calvinckho/capacitor-contact-picker",
     "version": "1.0.0",
-    "description": "Allows users to select one or many contacts from their device.",
+    "description": "Allows users to select a single contact from their device.",
     "main": "dist/esm/index.js",
     "types": "dist/esm/index.d.ts",
     "scripts": {
@@ -11,7 +11,7 @@
         "prepare": "npm run build",
         "prepublishOnly": "npm run build"
     },
-    "author": "Sean Perkins",
+    "author": "Calvin Ho",
     "license": "MIT",
     "dependencies": {
         "@capacitor/cli": "^2.0.2",
@@ -44,9 +44,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/TeamHive/capacitor-contact-picker"
+        "url": "https://github.com/calvinckho/capacitor-contact-picker"
     },
     "bugs": {
-        "url": "https://github.com/TeamHive/capacitor-contact-picker/issues"
+        "url": "https://github.com/calvinckho/capacitor-contact-picker/issues"
     }
 }
