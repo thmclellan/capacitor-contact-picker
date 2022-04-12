@@ -41,7 +41,7 @@ Add users permission in `AndroidManifest.xml`:
 
 ## Capacitor 3 Usage
 ```ts
-import { ContactPicker } from '@teamhive/capacitor-contact-picker';
+import { ContactPicker } from '@calvinckho/capacitor-contact-picker';
 
 try {
     const contact: any = await ContactPicker.open();
