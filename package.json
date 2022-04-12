@@ -1,6 +1,6 @@
 {
     "name": "@calvinckho/capacitor-contact-picker",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Allows users to select a single contact from their device.",
     "main": "dist/esm/index.js",
     "types": "dist/esm/index.d.ts",
@@ -27,7 +27,7 @@
         "dist/",
         "ios/",
         "android/",
-        "TeamhiveCapacitorContactPicker.podspec"
+        "CalvinckhoCapacitorContactPicker.podspec"
     ],
     "keywords": [
         "capacitor",
