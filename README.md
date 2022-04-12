@@ -4,13 +4,13 @@
 
 # @calvinckho/capacitor-contact-picker
 
-<img src="https://img.shields.io/npm/v/teamhive/capacitor-contact-picker?style=flat-square" />
+<img src="https://img.shields.io/npm/v/@calvinckho/capacitor-contact-picker?style=flat-square" />
 
 This capacitor plugin allows you to use the native contact picker UI on Android or iOS for single contact selection. Both platforms will return the same payload structure, where the data exists. This project is a fork of [TeamMaestro's plugin](https://github.com/TeamMaestro/capacitor-contact-picker) made for Capacitor 2.
 
 ## Installation
 ```
-npm i git+ssh://git@github.com/calvinckho/capacitor-contact-picker
+npm i @calvinckho/capacitor-contact-picker
 ```
 
 ### iOS
