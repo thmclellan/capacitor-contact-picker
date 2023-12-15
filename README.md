@@ -45,7 +45,7 @@ Add users permission in `AndroidManifest.xml`:
 </manifest>    
 ```
 
-## Capacitor 3 Usage
+## Capacitor 3+ Usage
 ```ts
 import { ContactPicker } from '@calvinckho/capacitor-contact-picker';
 
