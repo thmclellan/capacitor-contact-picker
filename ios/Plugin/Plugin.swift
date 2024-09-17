@@ -141,7 +141,7 @@ class Permissions {
     class func contactPermission(completionHandler: @escaping (_ accessGranted: Bool) -> Void) {
         let contactStore = CNContactStore()
         switch CNContactStore.authorizationStatus(for: .contacts) {
-        case .authorized:
+        case .authorized, .limited:
             completionHandler(true)
         case .denied:
             completionHandler(false)
@@ -155,6 +155,8 @@ class Permissions {
                     }
                 }
             }
+        @unknown default:
+            completionHandler(false)
         }
     }
 }
